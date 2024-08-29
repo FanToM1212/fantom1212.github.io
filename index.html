@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset=utf-8>
+      <title>Koren's Portfolio</title>
+      <link rel="icon" href="img/icon.png">
+      <link href="css/waves.css" rel="stylesheet">
+      <link href="css/Title.css" rel="stylesheet">
+      <link href="css/aboutMe.css" rel="stylesheet">
+      <link href="css/loading.css" rel="stylesheet">
+      <link href="css/carousel.css" rel="stylesheet">
+      <link href="css/projects.css" rel="stylesheet">
+      <link href="css/MainStyle.css" rel="stylesheet">
+      <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, height=device-height, viewport-fit=cover, user-scalable=no">
+      <meta name="apple-mobile-web-app-status-bar-style" content="default">
+      <meta name="mobile-web-app-capable" content="yes">
+
+      <!-- Define metadata for search engines -->
+      <meta name="title" content="Koren's Portfolio">
+      <meta name="author" content="Koren Shpitzer, ">
+      <meta name="description" content="Portfolio, showing who is Koren Shpitzer, knowledge and projects">
+      <meta name="keywords" content="Portfolio, About, info, knowledge, Technologies, Programing, Programming, UX/UI, web design, Engineering, Practical Engineering, , Koren Shpitzer, Software Engineering, developing, program developing, program Engineer, software developing, Practical, back end, backend, big data, front end, fullstack, frontend, projects, git">
+      <meta name="robots" content="index, follow">
+
+      <!-- Open Graph Meta Tags (for social media sharing) -->
+      <meta property="og:title" content="Koren's Portfolio">
+      <meta property="og:description" content="Portfolio, showing who is Koren Shpitzer, knowledge and projects">
+      <meta property="og:type" content="website">
+      <meta property="og:image" content="https://raw.githubusercontent.com/barakadax/barakadax.github.io/master/img/me.jpg">
+      <meta property="og:url" content="https://barakadax.github.io/">
+
+      <!-- Canonical URL to prevent duplicate content issues -->
+      <link rel="canonical" href="https://barakadax.github.io/">
+   </head>
+   <body>
+      <div id="title">
+         <h1>Koren Shpitzer</h1>
+         <h2>Software Engineer</h2>
+      </div>
+      <css-doodle id="titleEffect">
+         @size: 10px;
+         @grid: 100 x 12;
+         background: var(--Blue-color);
+         scale: 0;
+         opacity: 0;
+         animation: m 4s linear infinite;
+         transform: rotate(45deg) scale(1.6);
+           
+         animation-delay: calc(
+            -1s/@I * @i * @sin(@i)
+         );
+   
+         @keyframes m {
+            0%, 50%, 90% { scale: 1; opacity: 1 }
+            25%, 75%, 100% { scale: 0; opacity: 0 }
+         }
+      </css-doodle>
+      <div id="aboutMe">
+         <div id="AvatarGithubLinkedinContainer">
+            <img id="myself" src="img/koren.jpg" alt="Barak Taya">
+            <div>
+               <a href="https://github.com/FanToM1212" target="_blank">
+                  <img class="imgLink shakingImages" src="img/github.png" alt="Barak's GitHub">
+               </a>
+               <a href="https://www.linkedin.com/in/koren-shpitzer/" target="_blank">
+                  <img class="imgLink shakingImages" src="img/linkedin.png" alt="Barak's Linkedin">
+               </a>
+            </div>
+         </div>
+         <main id="textAboutMe">
+            <h2>About me</h2>
+            I'm in course in ProductGo! as Product Manager with a degree in computer science, combining technical expertise with strategic vision to drive product development.<br> 
+            My background enables me to bridge the gap between engineering and business, ensuring innovative and technically sound products.<br >
+         </main>
+      </div>
+      <svg id="upperWaves" class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+         <defs>
+            <path id="upperGentleWave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+         </defs>
+         <g class="parallax">
+            <use xlink:href="#upperGentleWave" x="48" y="0" fill="rgba(0,100,0,0.7)" />
+            <use xlink:href="#upperGentleWave" x="48" y="3" fill="rgba(0,100,0,0.5)" />
+            <use xlink:href="#upperGentleWave" x="48" y="5" fill="rgba(0,100,0,0.3)" />
+            <use xlink:href="#upperGentleWave" x="48" y="7" fill="#006400" /
+
+         </g>
+      </svg>
+      <div id="carouselBackground" class="noSelect">
+         <div id="carousel">
+            <div id="prevInfo"><img src="img/arrow.png" class="arrowSize" id="flipArrow" alt="rightArrow"></div>
+            <div id="skillsAndPersonalityMiddleCell">
+               <div class="skillsAndPersonality">
+                  <h2>Programing languages</h2>
+                  <div class="skillsAndPersonalityContent">
+                     <div class="iconAndTextSameLine"><img class="smallIcons" src="img/python.png" alt="Python">Python</div>
+                     <div class="iconAndTextSameLine"><img class="smallIcons" src="img/c-sharp.png" alt="C sharp">C#</div>
+                     <div class="iconAndTextSameLine"><img class="smallIcons" src="img/c.png" alt="C language">C</div>
+                     <div class="iconAndTextSameLine"><img class="smallIcons" src="img/java.png" alt="Java">Java</div>
+                     <div class="iconAndTextSameLine"><img class="smallIcons" src="img/js.png" alt="Js">Javascript</div>
+                  </div>
+               </div>
+               <div class="skillsAndPersonality">
+                  <h2>Databases</h2>
+                  <div class="skillsAndPersonalityContent">
+                     <div class="iconAndTextSameLine"><img class="smallIcons" src="img/mysql.png" alt="MySQL">MySQL</div>
+                  </div>
+               </div>
+               <div class="skillsAndPersonality">
+                  <h2>Clouds</h2>
+                  <div class="skillsAndPersonalityContent">
+                     <div class="iconAndTextSameLine"><img class="smallIcons" src="img/azure.png" alt="Azure">Azure</div>
+                     <div class="iconAndTextSameLine"><img class="smallIcons" src="img/githubBig.png" alt="GitHub">GitHub</div>
+                  </div>
+               </div>
+               <div class="skillsAndPersonality">
+                  <h2>Orchestrators & Containers</h2>
+                  <div class="skillsAndPersonalityContent">
+                     <div class="iconAndTextSameLine"><img class="smallIcons" src="img/kubernetes.png" alt="Kubernetes">Kubernetes</div>
+                     <div class="iconAndTextSameLine"><img class="smallIcons" src="img/Docker.png" alt="Docker">Docker</div>
+                  </div>
+               </div>
+            </div>
+            <div id="nextInfo"><img src="img/arrow.png" class="arrowSize" alt="leftArrow"></div>
+            <div id="counter">
+               <div class="index" onclick="carouselSetIndex(0)"></div>
+               <div class="index" onclick="carouselSetIndex(1)"></div>
+               <div class="index" onclick="carouselSetIndex(2)"></div>
+               <div class="index" onclick="carouselSetIndex(3)"></div>
+            </div>
+         </div>
+      </div>
+      <svg id="lowerWaves" class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+         <defs>
+            <path id="lowerGentleWave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+         </defs>
+         <g class="parallax">
+            <use xlink:href="#lowerGentleWave" x="48" y="0" fill="rgba(0,100,0,0.7)" />
+            <use xlink:href="#lowerGentleWave" x="48" y="3" fill="rgba(0,100,0,0.5)" />
+            <use xlink:href="#lowerGentleWave" x="48" y="5" fill="rgba(0,100,0,0.3)" />
+            <use xlink:href="#lowerGentleWave" x="48" y="7" fill="#006400" />
+         </g>
+      </svg>
+      <h2>Projects</h2>
+      <div id="projectsButton">
+         <button id="ALL">All</button>
+         <button id="Python">Python</button>
+         <button id="C#">C#</button>
+         <button id="CLang">C</button>
+         <button id="Rust">Rust</button>
+         <button id="Dart">Dart</button>
+         <button id="JavaScript">JS/TS</button>
+         <button id="JavaLang">Java</button>
+         <button id="PHP">PHP</button>
+         <button id="Assembly">Assembly</button>
+         <button id="Scala">Scala</button>
+      </div>
+      <div id="projectsColumn">
+         <div class="loadingContainer">
+            <div class="cube">
+              <div class="sides">
+                <div class="top"></div>
+                <div class="right"></div>
+                <div class="bottom"></div>
+                <div class="left"></div>
+                <div class="front"></div>
+                <div class="back"></div>
+              </div>
+            </div>
+            <div class="loadingText">Loading</div>
+          </div>
+      </div>
+      <footer>GNU Affero General Public License v3.0</footer>
+      <script defer src="js/github.js"></script>
+      <script defer src="js/projectsCards.js"></script>
+      <script defer src="js/carousel.js"></script>
+      <script defer src="js/doodle.js"></script>
+      <script defer src="js/main.js"></script>
+   </body>
+</html>
