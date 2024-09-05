@@ -1,12 +1,3 @@
-/*
-   _____ 	   |￣￣￣￣￣￣￣￣￣￣￣￣|
-/~/~    ~\ 	   |                      |
-| |   MY  \ 	|  code by Barak Taya  |
-\ \  SLEEP \	|                      |
- \ \        \	|＿＿＿＿＿＿＿＿＿＿＿＿|
---\ \       .\''          ||
---==\ \     ,,i!!i,	     ||
-    ''"'',,}{,,*/
 'use strict';
 
 getProjectsFromGitHub();
